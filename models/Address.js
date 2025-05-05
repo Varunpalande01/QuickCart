@@ -4,7 +4,7 @@ const addressSchema=new mongoose.Schema({
     userId:{type:String,required:true},
     fullName:{type:String,required:true},
     phoneNumber:{type:Number,required:true},
-    pincode:{type:String,Number:true},
+    pincode: { type:Number,required: true },
     area:{type:String,required:true},
     city:{type:String,required:true},
     state:{type:String,required:true},

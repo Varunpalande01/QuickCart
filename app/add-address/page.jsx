@@ -21,21 +21,38 @@ const AddAddress = () => {
 
     const onSubmitHandler = async (e) => {
         e.preventDefault();
-        try {
-            const token=await getToken()
-            const {data}= await axios.post('/api/user/add-address',{address},{headers:{Authorization:` Bearer${token}`}})
-            if (data.success) {
-                toast.success(data.message)
-                router.push('/cart')
-                
-            }else{
-                toast.error(data.message)
-            }
-        } catch (error) {
-            toast.error(error.message)
+      
+        // Simple validation check to ensure the address fields are filled
+        if (
+          !address.fullName ||
+          !address.phoneNumber ||
+          !address.pincode ||
+          !address.area ||
+          !address.city ||
+          !address.state
+        ) {
+          toast.error('All fields are required!');
+          return;
         }
-
-    }
+      
+        try {
+          const token = await getToken();
+          const { data } = await axios.post(
+            '/api/user/add-address',
+            { addressss: address }, // Send 'addressss' instead of 'address'
+            { headers: { Authorization: `Bearer ${token}` } }
+          );
+      
+          if (data.success) {
+            toast.success(data.message);
+            router.push('/cart');
+          } else {
+            toast.error(data.message);
+          }
+        } catch (error) {
+          toast.error(error.message);
+        }
+      };
 
     return (
         <>

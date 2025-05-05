@@ -7,7 +7,7 @@ import { NextResponse } from "next/server";
 
 export async function POST(request) {
     
-} {
+ {
     try {
         
         const {userId}=getAuth(request)
@@ -18,4 +18,4 @@ export async function POST(request) {
     } catch (error) {
         return NextResponse.json({success:false,message:error.message})
     } 
-}
+}}
