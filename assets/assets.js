@@ -278,7 +278,7 @@ export const productsDummyData = [
 
 export const userDummyData = {
   "_id": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-  "name": "GreatStack",
+  "name": "Varun",
   "email": "admin@example.com",
   "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoiZGVmYXVsdCIsImlpZCI6Imluc18ycnlnUnFiUDBYT2dEZ2h1ZmRXcGlpdWV5OXoiLCJyaWQiOiJ1c2VyXzJzWkZIUzFVSUl5c0p5RFZ6Q3BRaFVoVElodyJ9",
   "cartItems": {
@@ -318,12 +318,12 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
-      "phoneNumber": "0123456789",
-      "pincode": 654321,
-      "area": "Main Road , 123 Street, G Block",
-      "city": "City",
-      "state": "State",
+    "fullName": "VARUN PALANDE",
+    "phoneNumber": "8591443672",
+    "pincode": 400002,
+    "area": "Main Road , 123 Street, G Block",
+    "city": "Mumbai",
+    "state": "Maharashtra",
       "__v": 0
     },
     "status": "Order Placed",
@@ -357,12 +357,12 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
-      "phoneNumber": "0123456789",
-      "pincode": 654321,
-      "area": "Main Road , 123 Street, G Block",
-      "city": "City",
-      "state": "State",
+    "fullName": "VARUN PALANDE",
+    "phoneNumber": "8591443672",
+    "pincode": 400002,
+    "area": "Main Road , 123 Street, G Block",
+    "city": "Mumbai",
+    "state": "Maharashtra",
       "__v": 0
     },
     "status": "Order Placed",
@@ -399,12 +399,12 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
-      "phoneNumber": "0123456789",
-      "pincode": 654321,
-      "area": "Main Road , 123 Street, G Block",
-      "city": "City",
-      "state": "State",
+      "fullName": "VARUN PALANDE",
+    "phoneNumber": "8591443672",
+    "pincode": 400002,
+    "area": "Main Road , 123 Street, G Block",
+    "city": "Mumbai",
+    "state": "Maharashtra",
       "__v": 0
     },
     "status": "Order Placed",
@@ -417,12 +417,12 @@ export const addressDummyData = [
   {
     "_id": "67a1e4233f34a77b6dde9055",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "fullName": "GreatStack",
-    "phoneNumber": "0123456789",
-    "pincode": 654321,
+    "fullName": "VARUN PALANDE",
+    "phoneNumber": "8591443672",
+    "pincode": 400002,
     "area": "Main Road , 123 Street, G Block",
-    "city": "City",
-    "state": "State",
+    "city": "Mumbai",
+    "state": "Maharashtra",
     "__v": 0
   }
 ]
