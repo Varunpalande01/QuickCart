@@ -14,7 +14,7 @@ export async function POST(request) {
         const {cartData}=await request.json()
         await connectDB();
         const user=await User.findById(userId)
-       user.cartIems=cartData
+       user.cartItems=cartData
          await user.save()
         return NextResponse.json({success:true});
     } catch (error) {
