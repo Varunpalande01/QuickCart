@@ -19,13 +19,13 @@ const Footer = () => {
             <h2 className="font-medium text-gray-900 mb-5">Company</h2>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="hover:underline transition" href="#">Home</a>
+                <a className="hover:underline transition" href="/">Home</a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">About us</a>
+                <a className="hover:underline transition" href="/aboutus">About us</a>
               </li>
               <li>
-                <a className="hover:underline transition" href="#">Contact us</a>
+                <a className="hover:underline transition" href="/contactus">Contact us</a>
               </li>
               <li>
                 <a className="hover:underline transition" href="#">Privacy policy</a>
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm">
-        Copyright 2025 © Varunpalande.dev All Right Reserved.
+        Copyright 2025 ©Varunpalande.dev All Right Reserved.
       </p>
     </footer>
   );

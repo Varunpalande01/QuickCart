@@ -1,5 +1,10 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+
 export default function AboutPage() {
   return (
+    <><Navbar></Navbar>
+    
     <main className="max-w-5xl mx-auto px-6 py-14 text-gray-800">
       <h1 className="text-4xl font-bold text-blue-700 mb-6 border-b pb-2">About QuickCart</h1>
 
@@ -44,7 +49,8 @@ export default function AboutPage() {
           <br />
           — The QuickCart Team 💙
         </p>
+        <Footer/>
       </section>
-    </main>
+    </main></>
   );
 }
